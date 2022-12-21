@@ -1,0 +1,333 @@
+dialog_act,actor,utterances
+acknowledge,Commander,"we are done for now
+Finished.
+All tasks complete.
+finished
+that is all
+u are done
+done,
+done
+All done.
+yes"
+acknowledge,Driver,"thank you
+ok
+The lettuce has been sliced.
+Tomato has been sliced.
+Ok.
+Potato has been sliced.
+One cooked potato.
+Items have been placed.
+cool
+Done"
+affirm,Commander,"yes
+Ooh maybe
+yes!
+yes,
+Yes
+yes plate
+Yes.
+I believe it is, yes.
+yes please,
+all of them"
+affirm,Driver,"yes
+ok
+Yep.
+ye
+yea we need anothyer
+Yeah
+Yes
+yeees
+yeah
+Yes."
+alternatequestions,Commander,"butterknife or sharp
+are you done
+Is it too big for the sink?
+Is there a problem with the potato?
+is there water in the pot?
+Why are you delaying?
+Did u turn the water away?
+You get?
+is it already on?
+is that a clean and empty mug?"
+alternatequestions,Driver,"mug is clean, should i make coffee?
+Or the other one?
+Should I also slice the tomato here, as well?
+Just 1?
+Or do you mean the round one?
+Is there no bowl to place the slices?
+end of the island?
+What would you like me to put the water in?
+with what
+do i make asalad"
+confirm,Commander,"do you see it?
+you cleaned all the pots?
+a smaller slice?
+hm did you put the coffee there as well?
+Are they on chair or table
+Was the bowl not clean?
+Still not working?
+You washed the bowl right?
+Is there water in the bowl?
+Will the bread fit now?"
+confirm,Driver,"could it be in a cabinet?
+Does not pour coffee, did it complete?
+Apple is sliced, should I put it on a plate?
+done?
+have you tried to refresh your page?
+was that all
+Is that okay?
+is that everything
+on a plate or ?
+another slice in another bowl?"
+deny,Commander,"no
+no, that was all,
+No
+not a couch.
+I don't think so
+Nope
+none
+Nope.
+nooooo
+noo"
+deny,Driver,"no knife
+Nope
+no
+not yet
+No dish
+No.
+No
+nevermind
+no, I don't think so
+nope"
+feedbacknegative,Commander,"Not completing
+not lettuce but salad
+i didn't see you check the drawrr under microwave
+i haven't seen you go there
+That is not a plate
+That did not finish it
+because that didnt work
+i think you filled the wrong plant
+not that one
+its not finish"
+feedbacknegative,Driver,"no help
+wrong plate"
+feedbackpositive,Commander,"thank you for your help today
+that was all, thanks!
+Great job!
+Good work.
+Thank you.
+thank you!
+thank you for the great job
+You got it
+Awesome job task complete
+Thank you"
+feedbackpositive,Driver,"thank you
+Thanks
+Thank you
+Thanks!
+thanks
+nice save
+Great!
+You too
+nice
+u 2"
+greetings/salutations,Commander,"hi
+hello
+Hi.
+Hi
+Hello, its a long one
+Hello!
+hey
+hellooo
+Hello,
+hi."
+greetings/salutations,Driver,"hello
+hi
+Hi,
+hji
+Hello
+hello?
+hi,
+Hello,
+Hello.
+hELLO,"
+informationonobjectdetails,Commander,"the bread is on the counter
+by the lettuce
+there should be a knife
+in the drawer under the toaster
+the toaster is by the fridge
+under the toaster
+the knife should be in there
+there should also be a knife in the fridge
+in the freezer
+there are 3 loaves of bread"
+informationonobjectdetails,Driver,"Remotecontrol is on chair
+found it
+on the sofa
+no apple there
+and the knife
+it is on the bed
+no knife on the round table
+done
+There is another on the coffee pot
+it was on the counter in front of me but now it is gone"
+informationother,Commander,"let's check there
+you will need to put the knife down first
+that will work
+Fyi for future reference if you cook potato in microwave before slicing it all your slices will be cooked already.
+apologise is should have specified which one to clean,
+we can start with the mug
+looks like a plate
+maybe bowl
+if you turn directly around
+another tableware item, not sure what exactly"
+informationother,Driver,"I'll just use this one on the counter )
+it is an apple
+that slice is too big
+the other slices are too far to pick
+oven is full to place any other object
+but it is too large for the plate
+Water is on already.
+There is no bread beside the stove but i have seen it on one of the chairs.
+That is not a plate it is a pan
+then there is a dirty plate somewhere"
+instruction,Commander,"today we need to make a plate of toast
+open the drawer
+choose any and slice 1 please
+then take a slice of bread
+and toast it
+put back in fridge or on counter
+please take and place on the counter
+the toasted slice of bread
+goes on the plate
+can you please make coffee?"
+instruction,Driver,"To place the mug in
+I'll cook another slice
+a smaller one
+I put the tomato
+Potato slices cooked
+1 each on the plate
+All objects on the white table
+Potato is on the plate.
+place it  on plate
+same pla as the bread"
+miscother,Commander,"I'm looking for it too
+you too
+polease hurry
+lol
+tare you lost
+my apologies
+thats what im here for
+i am sorry
+I am not sure.
+Thant's my bad...Sorry"
+miscother,Driver,"NM
+cool
+thanks, you too.
+sweet, have a nice day
+chill its a delay dont rush
+just give direction
+Okay, I will use my robot eyes to find the coffee maker myself.
+Could you please tell me the amount of ingredients required?
+you are the commander.
+No problem."
+notifyfailure,Commander,"I am having trouble being able to see which one.
+sorry I didn't need that first one in there
+I'm sorry.
+didn't work
+i think the mug is still dirty...task incomplete..
+the its still not working
+its reading mug not filled
+Plate will not fit in sink
+It isnt showing me.
+thats not working"
+notifyfailure,Driver,"having trouble with knife
+the coffee machine won't turn on
+it won't let me place it in the fridge
+Sorry, its taking long to load commands
+No plate there, just a bowl
+but I couldn't take out any
+I am unable to pickup the remote
+No bowl here
+I'm sorry, but the coffee machine does not appear to be working
+not available to pick"
+otherinterfacecomment,Commander,"I just realized there's a search function,
+glitcj
+Is everything alright?
+just make sure to move a bit so we don't get times out of the task :)
+my typing is a little off
+That did not work
+Ok. That's not what the system considers a bowl.
+You'll need to look down 'D'.
+Use the 'D' command to look closer at the shelf below the table.
+it doesn't say"
+otherinterfacecomment,Driver,"guess its a glitch
+refresh the page
+just a sec
+press finish
+try refreshing by pressing progress check?
+Click on it so I know the location
+click on the task
+on the search box
+Search cookwares
+and press enter"
+requestforinstruction,Commander,"next
+there
+on the table
+what should i do today
+what are my directions
+how can I help?
+what can we do today
+How can I help
+What should I do today?
+What is my task?"
+requestforinstruction,Driver,"directions please
+how can I help?
+What should I do today?
+Next?
+hey how can I help?
+first task?
+Hello...What is my first task )
+what can I help you with?
+What shall I do today?
+next?"
+requestforobjectlocationandotherdetails,Commander,"Look on the shelf below that table.
+Where the laptop is
+A bowl
+knife is in the dustbin
+Looks like it's in the sink"
+requestforobjectlocationandotherdetails,Driver,"where are they
+where is the mewspaper
+Where is the plate, please
+where is tomato and knife?
+where is the plate?
+where is the potatow
+where is the remote?
+where is knife?
+where is plate?
+Could you find knife for me?"
+requestmore,Commander,Do you need help finding the knife?
+requestmore,Driver,"Anything else?
+anything else?
+What's next?
+what next?
+Next
+next please
+Next please?
+what else can I do?
+next
+What else can I help with?"
+requestotherinfo,Commander,"There is also a book on the desk if that works better.
+checking
+Would you like to continue or shall I   finish the task?
+are both the lettuce slices on the plate?"
+requestotherinfo,Driver,"Is that it next to the apple
+how many
+do i need to cook potato?
+Just 1?
+How can I cook?
+Please reply fast
+What all should I put?
+Does it specify which cabinet?
+The paper towels need to be cleaned?
+is there any other potato?"

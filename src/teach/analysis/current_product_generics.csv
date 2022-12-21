@@ -1,0 +1,399 @@
+id,intent,text
+0,goodbye,have a good night
+1,goodbye,have a nice day as well
+2,goodbye,peace
+3,goodbye,see you later
+4,goodbye,bye
+5,goodbye,great bye
+6,goodbye,good talking to you
+7,goodbye,ok peace
+8,goodbye,peace out
+9,goodbye,alright bye
+10,goodbye,Have a good one.
+11,goodbye,bye now
+12,goodbye,alright im out
+13,goodbye,Good bye.
+14,goodbye,nice talking with ya
+15,goodbye,you too bye
+16,goodbye,bye
+17,goodbye,bye bye
+18,goodbye,you too
+19,goodbye,see you later alligator
+20,goodbye,have a nice day
+21,goodbye,alright im gonna go
+22,goodbye,thanks goodbye
+23,goodbye,aite see ya
+24,goodbye,take care
+25,goodbye,adios
+26,goodbye,Have a good day
+27,goodbye,That's all for now. Bye.
+28,goodbye,alright bye bye
+29,goodbye,alright im outta here
+30,goodbye,"I appreciate your help, have a good day!"
+31,goodbye,same to you bye now
+32,goodbye,have a good night!
+33,goodbye,peace out homie
+34,goodbye,thanks for the help! bye
+35,goodbye,Have a good evening
+36,goodbye,i gotta go now
+37,goodbye,talk to you later
+38,goodbye,I'll ttyl
+39,goodbye,ttyl
+40,goodbye,goodbye
+41,goodbye,ok good bye
+42,goodbye,enjoy the rest of your day
+43,goodbye,Thank you. Goodbye.
+44,goodbye,bye now thanks
+45,goodbye,Bye.
+46,goodbye,bye then
+47,goodbye,have a good one
+48,goodbye,aite peace
+49,greeting,Hi there! Is someone around?
+50,greeting,hey good afternoon
+51,greeting,how's it going
+52,greeting,"Hello, here I am again with a question."
+53,greeting,let's go
+54,greeting,hi good morning
+55,greeting,hello again
+56,greeting,Hi
+57,greeting,yo whats up
+58,greeting,"hi there, can someone help"
+59,greeting,sup
+60,greeting,hey dude
+61,greeting,hello hi
+62,greeting,good evening
+63,greeting,"Hi, is someone around?"
+64,greeting,goodmorning
+65,greeting,"Hi, good day!"
+66,greeting,hi there
+67,greeting,"Hi, there"
+68,greeting,what's up
+69,greeting,what it do
+70,greeting,greetings
+71,greeting,goodevening
+72,greeting,hi
+73,greeting,hey whats happening
+74,greeting,hey whats going on
+75,greeting,what happening
+76,greeting,hi hows it going
+77,greeting,"Hello, there!"
+78,greeting,hello
+79,greeting,hola
+80,greeting,hey i need some help
+81,greeting,howdy
+82,greeting,"Hi, how's it going"
+83,greeting,hey there
+84,greeting,hey
+85,greeting,good morning
+86,greeting,hey good evening
+87,greeting,good afternoon
+88,greeting,i have a question
+89,greeting,morning
+90,greeting,good day
+91,greeting,just going to say hi
+92,greeting,moin
+93,greeting,hey hey
+94,greeting,whadup
+95,greeting,"Hi, is there anybody here?"
+96,greeting,good evening!
+97,greeting,yo
+98,greeting,hello there
+99,greeting,"hello, anyone there"
+100,greeting,hows it going
+101,greeting,how you doing
+102,no,no
+103,no,no I cannot
+104,no,negative
+105,no,not needed
+106,no,nope
+107,no,don't do that
+108,no,definitely not
+109,no,no no don't
+110,no,thanks but no
+111,no,not exactly
+112,no,sorry no
+113,no,thanks but not at all
+114,no,not at all
+115,no,no but thank you
+116,no,no that's okay
+117,no,are you kidding no
+118,no,don't do it
+119,no,nope not really
+120,no,no thanks not right now
+121,no,no need
+122,no,no never
+123,no,not interested
+124,no,no sorry
+125,no,no you didnt
+126,no,it's not
+127,no,nah not really
+128,no,I don't
+129,no,not right now
+130,no,no don't
+131,no,no that's be all
+132,no,of course not
+133,no,never
+134,no,no I would not
+135,no,no way
+136,no,nah I'm good
+137,no,I don't think so
+138,no,not right now thanks
+139,no,I don't want that
+140,no,not really no
+141,no,uh no
+142,no,zero percent
+143,no,not at this time
+144,no,I think no
+145,no,not even close
+146,no,it isn't
+147,no,absolutely no
+148,no,I don't want to
+149,no,do not
+150,no,absolutely not
+151,no,no forget
+152,no,not working
+153,no,that didnt help at all
+154,no,no way no
+155,no,no actually
+156,no,not today
+157,no,no im still having an issue
+158,no,not
+159,no,"Sorry, it's not working"
+160,no,no need thanks
+161,no,I'm not
+162,no,thanks but not this time
+163,no,"no, it's not resolved"
+164,no,I say no
+165,no,no it isn't
+166,no,don't
+167,no,no thank you very much
+168,no,let's not
+169,no,I said no
+170,no,no that's fine thank you
+171,no,no thanks
+172,no,not really
+173,no,no that's fine
+174,no,not this
+175,no,no just no
+176,no,no thank you though
+177,no,no we are good
+178,no,thanks but no thanks
+179,no,nah
+180,no,I disagree
+181,no,doesn't work
+182,no,nothing else
+183,no,disagree
+184,no,actually no
+185,no,no that's wrong
+186,no,nope sorry
+187,no,apparently not
+188,no,not this time
+189,no,nothing
+190,no,no maybe next time
+191,no,I don't want
+192,no,not that
+193,no,nothing else thanks
+194,no,no thank you
+195,no,no not really
+196,no,no do not
+197,no,no that's ok
+198,no,no leave it
+199,no,how about no
+200,no,no incorrect
+201,no,I can't
+202,thanks,Thank you for taking the time to explain this.
+203,thanks,Thank you so much! I really appreciate it
+204,thanks,thank you so much for your assistance
+205,thanks,appreciate you
+206,thanks,okay thanks
+207,thanks,I appreciate your hard work and want you to know it doesn’t go unnoticed.
+208,thanks,thanks for helping me with my problem!
+209,thanks,thanks very much
+210,thanks,I really appreciate your help. Thank you.
+211,thanks,thanks for the help
+212,thanks,I appreciate what you did
+213,thanks,thanks i appreciate it
+214,thanks,Thank you for helping me with this issue
+215,thanks,thank you for your help i have no more question
+216,thanks,thanks for assisting me with this
+217,thanks,Thanks!!
+218,thanks,awesome thanks
+219,thanks,i appreciate it
+220,thanks,Thanks a lot for your help – I couldn’t have done it without you!
+221,thanks,thanks a lot
+222,thanks,truly appreciate you
+223,thanks,Thanks for your attention on the matter.
+224,thanks,thanks
+225,thanks,appreciate it
+226,thanks,great thank you
+227,thanks,okay thank you
+228,thanks,Thank you for your time today.
+229,thanks,that is helpful thank you for your help today
+230,thanks,all set thank you
+231,thanks,Thank you for always going above and beyond
+232,thanks,thanks again
+233,thanks,Thanks.
+234,thanks,thank you good stuff
+235,thanks,You’re the sweetest! Thank you for everything you do!
+236,thanks,"im relieved you helped me with this, thanks a lot"
+237,thanks,Thank you very much for the help
+238,thanks,you were wonderful thanks
+239,thanks,It’s a rare thing to find someone as generous and kind as you. Thank you.
+240,thanks,"Thank you for taking the time to help me, it really meant a lot."
+241,thanks,I am so thankful for what you did.
+242,thanks,thank you for your help with this
+243,thanks,thanks so much for your help
+244,thanks,thanks for the help
+245,thanks,i apricate your help
+246,thanks,i appreciate your help
+247,thanks,thanks for the help
+248,thanks,i apricate your help
+249,thanks,"thank you for helping me, i don't know about this stuff"
+250,thanks,i apricate everything you've done today
+251,thanks,i apricate it
+252,thanks,i apricate everything you've done
+253,thanks,i apricate everything you've done
+254,yes,okay
+255,yes,yes
+256,yes,Yes that would be great
+257,yes,yea
+258,yes,ok
+259,yes,ok!
+260,yes,okay!
+261,yes,alrightie
+262,yes,confirm
+263,yes,why not
+264,yes,I'm sure
+265,yes,yes I would like to confirm
+266,yes,yeah exactly
+267,yes,yeah thanks
+268,yes,confirmed
+269,yes,yes I agree
+270,yes,okay I will
+271,yes,indeed it was
+272,yes,that'd be wonderful
+273,yes,ok thanks
+274,yes,ok you can
+275,yes,awesome
+276,yes,that is ok
+277,yes,oh yes
+278,yes,okay that's
+279,yes,yes definitely
+280,yes,yes that's alright
+281,yes,you did indeed
+282,yes,ya
+283,yes,sure thanks
+284,yes,that's okay
+285,yes,yes that's
+286,yes,right
+287,yes,sure why not
+288,yes,do it
+289,yes,all right
+290,yes,sounds correct
+291,yes,alright
+292,yes,alright thanks
+293,yes,I don't mind
+294,yes,yes correct
+295,yes,it is correct
+296,yes,sweet
+297,yes,yes that was helpful
+298,yes,yes you can do it
+299,yes,definitely
+300,yes,yes you may
+301,yes,yes right
+302,yes,aight
+303,yes,ok appreciate it
+304,yes,that one works
+305,yes,cool
+306,yes,yep that's right
+307,yes,sure thing
+308,yes,I think so
+309,yes,yeah that's right
+310,yes,yes indeed
+311,yes,sure did
+312,yes,okay then
+313,yes,yes you did
+314,yes,sg
+315,yes,it's okay
+316,yes,yes i would appreciate that
+317,yes,ok go ahead
+318,yes,obviously
+319,yes,ok
+320,yes,good
+321,yes,ok yes
+322,yes,okey
+323,yes,yep that's ok
+324,yes,that's correct
+325,yes,for sure
+326,yes,looks correct
+327,yes,yes please
+328,yes,alrighty
+329,yes,that works
+330,yes,yeah that resolved my concern
+331,yes,yes I do
+332,yes,yeah that resolved my issue
+333,yes,yes thank you
+334,yes,go ahead
+335,yes,sounds good thanks
+336,yes,yeah of course
+337,yes,affirmative
+338,yes,it's surely useful
+339,yes,yup thank you
+340,yes,I do
+341,yes,please do
+342,yes,yup
+343,yes,I guess
+344,yes,got it thanks
+345,yes,of course why not
+346,yes,yes this is correct
+347,yes,perfect
+348,yes,okie dokie
+349,yes,cool thanks
+350,yes,yeah i appreciate it
+351,yes,yes it is
+352,yes,that was helpful
+353,yes,okay sounds
+354,yes,sounds good
+355,yes,it's fine
+356,yes,yeah go ahead
+357,yes,exactly
+358,yes,amazing
+359,yes,ok thank you
+360,yes,That's great
+361,yes,it looks perfect
+362,yes,I agree
+363,yes,yes I can
+364,yes,k
+365,yes,alright why not
+366,yes,yeah i have all my answers
+367,yes,fine
+368,yes,sure works for me
+369,yes,yeah
+370,yes,yeah right
+371,yes,yeah sure
+372,yes,go for it
+373,yes,this is correct
+374,yes,yes much appreciated
+375,yes,yeah file it
+376,yes,"i would, thank you"
+377,yes,"alright, please do"
+378,yes,please
+379,yes,please do
+380,yes,"yes, i need to"
+381,yes,"i would, thank you"
+382,yes,"yes, please"
+383,yes,i will
+384,yes,"yes, please that would be great"
+385,yes,yes please
+386,yes,"yes, please do"
+387,yes,"ok, please do"
+388,yes,i do
+389,yes,"yes, i need to"
+390,yes,i would appreciate that
+391,yes,"yes, and it worked!"
+392,yes,"i'm in it now, it worked for me"
+393,yes,"yep, it worked"
+394,yes,"i did, it worked well"
+395,yes,"i'm using it, and it worked"
+396,yes,"yes, worked perfectly"
+397,yes,"yes, it worked perfectly"

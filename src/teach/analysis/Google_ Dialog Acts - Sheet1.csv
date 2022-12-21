@@ -1,0 +1,131 @@
+,name,act_tag,intent,next steps,example,train_count,full_count,Amol,Chandra,Stephen,Nachiketa,Nikhil,Comments
+1,Statement-non-opinion,sd,,,"Me, I'm in the legal department.",72824,75145,,,,"Excluded:
+ - Irrelavant ",,
+2,Acknowledge (Backchannel),b,Affirm,,Uh-huh.,37096,38298,,Y,"Y 
+
+Merging with ""yes"": Could depend on context, if someone is saying ""uh huh"" to say that they're listening vs. saying they want to accept a plan offer, etc.","Y
+
+- tag with affirm/yes intent",Yes,"[Nikhil] I don't think this is same as yes. We might wanna configure backchannel a separate intent with action_listen as the bot response
+[NR] Can be made a separate intent but it appear to be be a verbal affirmation and might not even be relevant to text conversation. These are kind of informal affirmation more relevant in speech conversations
+[Nikhil] Let's skip for now then
+[NR] agreed"
+3,Statement-opinion,sv,,,I think it's great,25197,26428,,,,"Excluded:
+ - Relevant in speech not in text",,
+4,Agree/Accept,aa,Affirm,,That's exactly it.,10820,11133,,Y,Y,"Y
+
+- tag with affirm/yes intent",Yes,
+5,Abandoned or Turn-Exit,%,,,"So, -",10569,15550,,,,"Excluded:
+ - Relevant in speech not in text",,
+6,Appreciation,ba,,,I can imagine.,4633,4765,,,,"Excluded:
+ - Relevant in speech not in text",Maybe,
+7,Yes-No-Question,qy,,,Do you have to have any special training?,4624,4727,,,,"Excluded:
+ - Irrellavant small talk",,
+8,Non-verbal,x,,,"[Laughter], [Throat_clearing]",3548,3630,,,,"Excluded:
+ - Relevant in speech not in text",,
+9,Yes answers,ny,Affirm,,Yes.,2934,3034,,Y,Y,"Y
+
+- tag with affirm/yes intent",Yes,
+10,Conventional-closing,fc,Goodbye,,"Well, it's been nice talking to you.",2486,2582,,Y,Y,"Y
+
+- tag with goodbye",Yes,
+11,Uninterpretable,%,,,"But, uh, yeah",2158,15550,,,,"Excluded:
+ - Relevant in speech not in text",Yes,
+12,Wh-Question,qw,,,"Well, how old are you?",1911,1979,,,,"Excluded: 
+- Irrellavant small talk",,
+13,No answers,nn,Deny,,No.,1340,1377,,Y,Y,"Y 
+
+- tag with no/deny intent",Yes,
+14,Response Acknowledgement,bk,Affirm,,"Oh, okay.",1277,1306,,Y,Y,"Y
+
+- tag with affirm/yes intent",Yes,"[Nikhil] Should this be part of ""continue"" button?
+[NR] Continue for the most part is Yes. So this will be handled.
+[Nikhil] What do you mean by ""for the most part""?
+[NR] What I have observed is that Continue is linked with yes button havent seen any negative example of it yet 
+[Nikhil] My question is slightly different. If the user is shown ""Continue"" button, and they type ""yeah"" -> NLU will tag it as ""Yes"" intent. After that will ""Continue"" button be triggered?
+[NR] yes it will be if the continue buttons paraphases are tagged along yes"
+15,Hedge,h,,,I don't know if I'm making any sense or not.,1182,1226,,,,"Excluded:
+ - Relevant in speech not in text",Maybe,
+16,Declarative Yes-No-Question,qy^d,,,So you can afford to get a house?,1174,1219,,,,"Excluded: 
+- Irrellavant small talk",,
+17,Other,fo_o_fw_by_bc,,,"Well give me a break, you know.",1074,883,,,,"Excluded: 
+- Irrellavant small talk",,
+18,Backchannel in question form,bh,Confirm,,Is that right?,1019,1053,,Y,Y,"Excluded:
+ - Relevant in speech not in text",Yes,
+19,Quotation,^q,,,You can't be pregnant and have cats,934,983,,,,"Excluded: 
+- Irrellavant small talk",,
+20,Summarize/reformulate,bf,,,"Oh, you mean you switched schools for the kids.",919,952,,,,"Excluded: 
+- Irrellavant small talk",,
+21,Affirmative non-yes answers,na,Affirm,,It is.,836,847,,Y,Y,"Y
+
+- tag with affirm/yes intent",Maybe,
+22,Action-directive,ad,,,Why don't you go first,719,746,,,,"Excluded:
+ - Relevant in speech not in text",,
+23,Collaborative Completion,^2,,,Who aren't contributing.,699,723,,,,"Excluded:
+ - Relevant in speech not in text",,
+24,Repeat-phrase,b^m,,,"Oh, fajitas",660,688,,Y,Y,"Excluded:
+ - Relevant in speech not in text",Maybe,
+25,Open-Question,qo,,,How about you?,632,656,,Y,Y,"Excluded:
+ - Relevant in speech not in text",Maybe,
+26,Rhetorical-Questions,qh,,,Who would steal a newspaper?,557,575,,,,"Excluded:
+ - Relevant in speech not in text",,
+27,Hold before answer/agreement,^h,,,I'm drawing a blank.,540,556,,,"Y
+
+Merge with ""hold on"" intent","Excluded:
+ - Relevant in speech not in text",Yes,"[Nikhil] do we have the intent Stephen mentioned in the NLU?
+[NR] yes we have such an intent in generic NLU"
+28,Reject,ar,Deny,,"Well, no",338,346,,Y,Y,"Y
+
+- tag with no/deny intent",Yes,
+29,Negative non-no answers,ng,Feedback Negative,Cleanup,"Uh, not a whole lot.",292,302,,,Y,"Excluded:
+ - Relevant in speech not in text",,
+30,Signal-non-understanding,br,,,Excuse me?,288,298,,,"Y
+
+Merge with ""what do you mean exactly"" intent","Excluded:
+ - Relevant in speech not in text",Yes,
+31,Other answers,no,,Ask stephen to identify generic intents from this dialog_act such as apologies,I don't know,279,286,,Y,Y,"Y
+
+- tag with no/deny intent",Yes,"[Nikhil] I don't think this should be grouped with ""deny"" intent. Maybe we can look at other paraphrases for this before making a decision on. how to handle.
+e.g. 
+Bot: Did you mean ""Add, Remove, payment..."" article? 
+- buttons: [Yes, No]
+User: I don't know
+In this case, we might want to reply with ""Since you are uncertain, I can proceed with this information. You can ask me to stop if you think this is not the right information.""
+[NR] This is ambigous . Proceeding with it means we club it with Yes. for which user has already said he dont know or not sure (clubbing it with No will make more sense). Either we skip it or club with No
+[Nikhil] Can you share other paraphrases in this intent?
+[NR] I have not extracted parahares for any of these dialogue acts yet.
+[Nikhil] Definition of ""Other answers"" from the switchboard corpus: For responses to y/n questions that are neither affirmative responses (""yes"" or ""Indeed I do"") nor negative responses (""no"" or ""I don't think so""). The most common case is ""I don't know""
+It deserves an intent of it's own for sure. We can configure a rule that says ""Since you are uncertain if this is the right answer, let's try again. Can you describe your issue in more detail?"" 
+[NR] Creaing a new intent out of it is agreed. 
+[Nikhil] Add separate intent and follow same payload as ""No"" intent"
+32,Conventional-opening,fp,Greeting,,How are you?,220,225,,Y,Y,"Y
+
+- tag with greeting intent",Yes,
+33,Or-Clause,qrr,,,or is it more of a company?,207,209,,,,"Excluded:
+ - Relevant in speech not in text",,
+34,Dispreferred answers,arp_nd,Deny,Cleanup ,"Well, not so much that.",205,207,,,Y,"Excluded:
+ - Relevant in speech not in text",,
+35,3rd-party-talk,t3,,,"My goodness, Diane, get down from there.",115,117,,,,"Excluded:
+ - Relevant in speech not in text",,
+36,"Offers, Options, Commits",oo_co_cc,,,I'll have to check that out,109,110,,Y,Y,"Excluded:
+ - Relevant in speech not in text",Maybe,
+37,Self-talk,t1,,,What's the word I'm looking for,102,103,,,,"Excluded:
+ - Relevant in speech not in text",,
+38,Downplayer,bd,,,That's all right.,100,103,,,"Y
+
+Merge with ""no"" intent?","Excluded:
+ - Relevant in speech not in text",Maybe,
+39,Maybe/Accept-part,aap_am,,,Something like that,98,105,,,Y,"Excluded:
+ - Relevant in speech not in text",Yes,"[Nikhil] Should we tag this with ""Yes"" intent since it's a partial accept?
+[NR] Agreed"
+40,Tag-Question,^g,Confirm,Cleanup,Right?,93,92,,Y,"Y
+
+Merge with ""what do you mean exactly"" intent","Excluded:
+ - Relevant in speech not in text",Maybe,
+41,Declarative Wh-Question,qw^d,,,You are what kind of buff?,80,80,,,,"Excluded:
+ - Relevant in speech not in text",,
+42,Apology,fa,Apology,,I'm sorry.,76,79,,Y,Y,"Excluded:
+ - Relevant in speech not in text",Yes,"[Nikhil] We could include a rule based response if user apologises 
+[NR] Agreed"
+43,Thanking,ft,Affirm,,Hey thanks a lot,67,78,,Y,Y,"Y
+
+- tag with thanks intent",Yes,

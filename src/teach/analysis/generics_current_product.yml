@@ -1,0 +1,410 @@
+- intent: goodbye
+  examples:
+  - text: have a good night
+  - text: have a nice day as well
+  - text: peace
+  - text: see you later
+  - text: bye
+  - text: great bye
+  - text: good talking to you
+  - text: ok peace
+  - text: peace out
+  - text: alright bye
+  - text: Have a good one.
+  - text: bye now
+  - text: alright im out
+  - text: Good bye.
+  - text: nice talking with ya
+  - text: you too bye
+  - text: bye
+  - text: bye bye
+  - text: you too
+  - text: see you later alligator
+  - text: have a nice day
+  - text: alright im gonna go
+  - text: thanks goodbye
+  - text: aite see ya
+  - text: take care
+  - text: adios
+  - text: Have a good day
+  - text: That's all for now. Bye.
+  - text: alright bye bye
+  - text: alright im outta here
+  - text: I appreciate your help, have a good day!
+  - text: same to you bye now
+  - text: have a good night!
+  - text: peace out homie
+  - text: thanks for the help! bye
+  - text: Have a good evening
+  - text: i gotta go now
+  - text: talk to you later
+  - text: I'll ttyl
+  - text: ttyl
+  - text: goodbye
+  - text: ok good bye
+  - text: enjoy the rest of your day
+  - text: Thank you. Goodbye.
+  - text: bye now thanks
+  - text: Bye.
+  - text: bye then
+  - text: have a good one
+  - text: aite peace
+- intent: greeting
+  examples:
+  - text: Hi there! Is someone around?
+  - text: hey good afternoon
+  - text: how's it going
+  - text: Hello, here I am again with a question.
+  - text: let's go
+  - text: hi good morning
+  - text: hello again
+  - text: Hi
+  - text: yo whats up
+  - text: hi there, can someone help
+  - text: sup
+  - text: hey dude
+  - text: hello hi
+  - text: good evening
+  - text: Hi, is someone around?
+  - text: goodmorning
+  - text: Hi, good day!
+  - text: hi there
+  - text: Hi, there
+  - text: what's up
+  - text: what it do
+  - text: greetings
+  - text: goodevening
+  - text: hi
+  - text: hey whats happening
+  - text: hey whats going on
+  - text: what happening
+  - text: hi hows it going
+  - text: Hello, there!
+  - text: hello
+  - text: hola
+  - text: hey i need some help
+  - text: howdy
+  - text: Hi, how's it going
+  - text: hey there
+  - text: hey
+  - text: good morning
+  - text: hey good evening
+  - text: good afternoon
+  - text: i have a question
+  - text: morning
+  - text: good day
+  - text: just going to say hi
+  - text: moin
+  - text: hey hey
+  - text: whadup
+  - text: Hi, is there anybody here?
+  - text: good evening!
+  - text: yo
+  - text: hello there
+  - text: hello, anyone there
+  - text: hows it going
+  - text: how you doing
+- intent: 'no'
+  examples:
+  - text: 'no'
+  - text: no I cannot
+  - text: negative
+  - text: not needed
+  - text: nope
+  - text: don't do that
+  - text: definitely not
+  - text: no no don't
+  - text: thanks but no
+  - text: not exactly
+  - text: sorry no
+  - text: thanks but not at all
+  - text: not at all
+  - text: no but thank you
+  - text: no that's okay
+  - text: are you kidding no
+  - text: don't do it
+  - text: nope not really
+  - text: no thanks not right now
+  - text: no need
+  - text: no never
+  - text: not interested
+  - text: no sorry
+  - text: no you didnt
+  - text: it's not
+  - text: nah not really
+  - text: I don't
+  - text: not right now
+  - text: no don't
+  - text: no that's be all
+  - text: of course not
+  - text: never
+  - text: no I would not
+  - text: no way
+  - text: nah I'm good
+  - text: I don't think so
+  - text: not right now thanks
+  - text: I don't want that
+  - text: not really no
+  - text: uh no
+  - text: zero percent
+  - text: not at this time
+  - text: I think no
+  - text: not even close
+  - text: it isn't
+  - text: absolutely no
+  - text: I don't want to
+  - text: do not
+  - text: absolutely not
+  - text: no forget
+  - text: not working
+  - text: that didnt help at all
+  - text: no way no
+  - text: no actually
+  - text: not today
+  - text: no im still having an issue
+  - text: not
+  - text: Sorry, it's not working
+  - text: no need thanks
+  - text: I'm not
+  - text: thanks but not this time
+  - text: no, it's not resolved
+  - text: I say no
+  - text: no it isn't
+  - text: don't
+  - text: no thank you very much
+  - text: let's not
+  - text: I said no
+  - text: no that's fine thank you
+  - text: no thanks
+  - text: not really
+  - text: no that's fine
+  - text: not this
+  - text: no just no
+  - text: no thank you though
+  - text: no we are good
+  - text: thanks but no thanks
+  - text: nah
+  - text: I disagree
+  - text: doesn't work
+  - text: nothing else
+  - text: disagree
+  - text: actually no
+  - text: no that's wrong
+  - text: nope sorry
+  - text: apparently not
+  - text: not this time
+  - text: nothing
+  - text: no maybe next time
+  - text: I don't want
+  - text: not that
+  - text: nothing else thanks
+  - text: no thank you
+  - text: no not really
+  - text: no do not
+  - text: no that's ok
+  - text: no leave it
+  - text: how about no
+  - text: no incorrect
+  - text: I can't
+- intent: thanks
+  examples:
+  - text: Thank you for taking the time to explain this.
+  - text: Thank you so much! I really appreciate it
+  - text: thank you so much for your assistance
+  - text: appreciate you
+  - text: okay thanks
+  - text: "I appreciate your hard work and want you to know it doesn\u2019t go unnoticed."
+  - text: thanks for helping me with my problem!
+  - text: thanks very much
+  - text: I really appreciate your help. Thank you.
+  - text: thanks for the help
+  - text: I appreciate what you did
+  - text: thanks i appreciate it
+  - text: Thank you for helping me with this issue
+  - text: thank you for your help i have no more question
+  - text: thanks for assisting me with this
+  - text: Thanks!!
+  - text: awesome thanks
+  - text: i appreciate it
+  - text: "Thanks a lot for your help \u2013 I couldn\u2019t have done it without\
+      \ you!"
+  - text: thanks a lot
+  - text: truly appreciate you
+  - text: Thanks for your attention on the matter.
+  - text: thanks
+  - text: appreciate it
+  - text: great thank you
+  - text: okay thank you
+  - text: Thank you for your time today.
+  - text: that is helpful thank you for your help today
+  - text: all set thank you
+  - text: Thank you for always going above and beyond
+  - text: thanks again
+  - text: Thanks.
+  - text: thank you good stuff
+  - text: "You\u2019re the sweetest! Thank you for everything you do!"
+  - text: im relieved you helped me with this, thanks a lot
+  - text: Thank you very much for the help
+  - text: you were wonderful thanks
+  - text: "It\u2019s a rare thing to find someone as generous and kind as you. Thank\
+      \ you."
+  - text: Thank you for taking the time to help me, it really meant a lot.
+  - text: I am so thankful for what you did.
+  - text: thank you for your help with this
+  - text: thanks so much for your help
+  - text: thanks for the help
+  - text: i apricate your help
+  - text: i appreciate your help
+  - text: thanks for the help
+  - text: i apricate your help
+  - text: thank you for helping me, i don't know about this stuff
+  - text: i apricate everything you've done today
+  - text: i apricate it
+  - text: i apricate everything you've done
+  - text: i apricate everything you've done
+- intent: 'yes'
+  examples:
+  - text: okay
+  - text: 'yes'
+  - text: Yes that would be great
+  - text: yea
+  - text: ok
+  - text: ok!
+  - text: okay!
+  - text: alrightie
+  - text: confirm
+  - text: why not
+  - text: I'm sure
+  - text: yes I would like to confirm
+  - text: yeah exactly
+  - text: yeah thanks
+  - text: confirmed
+  - text: yes I agree
+  - text: okay I will
+  - text: indeed it was
+  - text: that'd be wonderful
+  - text: ok thanks
+  - text: ok you can
+  - text: awesome
+  - text: that is ok
+  - text: oh yes
+  - text: okay that's
+  - text: yes definitely
+  - text: yes that's alright
+  - text: you did indeed
+  - text: ya
+  - text: sure thanks
+  - text: that's okay
+  - text: yes that's
+  - text: right
+  - text: sure why not
+  - text: do it
+  - text: all right
+  - text: sounds correct
+  - text: alright
+  - text: alright thanks
+  - text: I don't mind
+  - text: yes correct
+  - text: it is correct
+  - text: sweet
+  - text: yes that was helpful
+  - text: yes you can do it
+  - text: definitely
+  - text: yes you may
+  - text: yes right
+  - text: aight
+  - text: ok appreciate it
+  - text: that one works
+  - text: cool
+  - text: yep that's right
+  - text: sure thing
+  - text: I think so
+  - text: yeah that's right
+  - text: yes indeed
+  - text: sure did
+  - text: okay then
+  - text: yes you did
+  - text: sg
+  - text: it's okay
+  - text: yes i would appreciate that
+  - text: ok go ahead
+  - text: obviously
+  - text: ok
+  - text: good
+  - text: ok yes
+  - text: okey
+  - text: yep that's ok
+  - text: that's correct
+  - text: for sure
+  - text: looks correct
+  - text: yes please
+  - text: alrighty
+  - text: that works
+  - text: yeah that resolved my concern
+  - text: yes I do
+  - text: yeah that resolved my issue
+  - text: yes thank you
+  - text: go ahead
+  - text: sounds good thanks
+  - text: yeah of course
+  - text: affirmative
+  - text: it's surely useful
+  - text: yup thank you
+  - text: I do
+  - text: please do
+  - text: yup
+  - text: I guess
+  - text: got it thanks
+  - text: of course why not
+  - text: yes this is correct
+  - text: perfect
+  - text: okie dokie
+  - text: cool thanks
+  - text: yeah i appreciate it
+  - text: yes it is
+  - text: that was helpful
+  - text: okay sounds
+  - text: sounds good
+  - text: it's fine
+  - text: yeah go ahead
+  - text: exactly
+  - text: amazing
+  - text: ok thank you
+  - text: That's great
+  - text: it looks perfect
+  - text: I agree
+  - text: yes I can
+  - text: k
+  - text: alright why not
+  - text: yeah i have all my answers
+  - text: fine
+  - text: sure works for me
+  - text: yeah
+  - text: yeah right
+  - text: yeah sure
+  - text: go for it
+  - text: this is correct
+  - text: yes much appreciated
+  - text: yeah file it
+  - text: i would, thank you
+  - text: alright, please do
+  - text: please
+  - text: please do
+  - text: yes, i need to
+  - text: i would, thank you
+  - text: yes, please
+  - text: i will
+  - text: yes, please that would be great
+  - text: yes please
+  - text: yes, please do
+  - text: ok, please do
+  - text: i do
+  - text: yes, i need to
+  - text: i would appreciate that
+  - text: yes, and it worked!
+  - text: i'm in it now, it worked for me
+  - text: yep, it worked
+  - text: i did, it worked well
+  - text: i'm using it, and it worked
+  - text: yes, worked perfectly
+  - text: yes, it worked perfectly
